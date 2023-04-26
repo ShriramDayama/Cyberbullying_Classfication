@@ -1,3 +1,4 @@
 nltk==3.8.1
 streamlit==1.21.0
 xgboost==1.6.2
+sklearn==1.2.2

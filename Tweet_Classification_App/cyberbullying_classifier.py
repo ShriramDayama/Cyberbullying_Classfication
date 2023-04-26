@@ -61,6 +61,7 @@ def main():
 
     st.success(predict_map[result[0]])
 
+st.write("[Github repo link](https://github.com/ShriramDayama/Cyberbullying_Classfication)")
 
 if __name__ == "__main__":
   main()

@@ -3,7 +3,9 @@ import nltk
 import pickle
 import streamlit as st
 
-
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 def preprocess(string):
   pattern = "[#|@][^\s]*|https://[^\s]|www\.[^\s]"
